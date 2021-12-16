@@ -4,7 +4,7 @@ import tkinter as tk
 
 
 def set_window():
-    # 创建窗口
+    # 创建窗口界面
     window = tk.Tk()
     window.title('Excel合并与Word内容导出工具')
     window.attributes("-alpha", 1.0)  # 窗口透明度
