@@ -14,8 +14,8 @@ def set_window():
     screenheight = window.winfo_screenheight()
     width = 658
     height = 404
-    alignstr = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
-    window.geometry(alignstr)
+    align_str = '%dx%d+%d+%d' % (width, height, (screenwidth - width) / 2, (screenheight - height) / 2)
+    window.geometry(align_str)
     # 创建画布
     canvas_window = tk.Canvas(window, width=658, height=504, bd=0, highlightthickness=5)
     canvas_window.pack()
