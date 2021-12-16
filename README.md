@@ -1,0 +1,2 @@
+# MergeExcel-WordToExcel
+合并特定文件夹下的Excel和将Word内容分段落导出到Excel
