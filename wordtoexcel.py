@@ -10,6 +10,7 @@ import sys
 
 def wordtoexcel():
     # 打开word文档
+    # 结合Tk设计
     window = tk.Tk()
     window.withdraw()
     print("请选择工单号命名的文件夹所在的文件夹！")
