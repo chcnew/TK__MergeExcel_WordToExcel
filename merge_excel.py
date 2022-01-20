@@ -26,6 +26,7 @@ def merge_excel():
     n = 0
     for x in lst:
         df = pd.read_excel(x, sheet_name=0)
+        df.columns = empty_df.columns
         empty_df = empty_df.append(df, ignore_index=True)
         n = n + 1
         time.sleep(0.0005)
